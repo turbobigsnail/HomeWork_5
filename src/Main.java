@@ -14,15 +14,17 @@ public class Main {
         //    задача 2
 
 
-        for (int i = 0; i < weight_1.length; i++)
+        for (int i = 0; i < weight_1.length; i++) {
 
             System.out.print(weight_1[i] + ", ");
+        }
 
         System.out.println(weight_1[weight_1.length - 1]);
 
 
-        for (int i = 0; i < weight_2.length; i++)
+        for (int i = 0; i < weight_2.length; i++) {
             System.out.print(weight_2[i] + ", ");
+        }
 
         System.out.println(weight_2[weight_2.length - 1]);
 
@@ -48,6 +50,7 @@ public class Main {
 
             System.out.print(weight_1[x] + " ");
         }
+
 
     }
 }
