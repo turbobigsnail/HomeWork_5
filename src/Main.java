@@ -13,43 +13,42 @@ public class Main {
 
         //    задача 2
 
-        {
-            for (int i = 0; i < weight_1.length; i++)
 
-                System.out.print(weight_1[i] + ", ");
+        for (int i = 0; i < weight_1.length; i++)
 
-            System.out.println(weight_1[weight_1.length - 1]);
-        }
-        {
-            for (int i = 0; i < weight_2.length; i++)
-                System.out.print(weight_2[i] + ", ");
+            System.out.print(weight_1[i] + ", ");
 
-            System.out.println(weight_2[weight_2.length - 1]);
-        }
+        System.out.println(weight_1[weight_1.length - 1]);
+
+
+        for (int i = 0; i < weight_2.length; i++)
+            System.out.print(weight_2[i] + ", ");
+
+        System.out.println(weight_2[weight_2.length - 1]);
+
         // задача 3
-        {
 
-            int overBack = weight_3.length - 1;
-            while (overBack > 0) {
-                System.out.print(weight_3[overBack] + ", ");
 
-                overBack--;
-            }
-            System.out.println(weight_3[weight_3.length - 1]);
+        int overBack = weight_3.length - 1;
+        while (overBack > 0) {
+            System.out.print(weight_3[overBack] + ", ");
 
+            overBack--;
         }
+        System.out.println(weight_3[weight_3.length - 1]);
+
         // задача 4
-        {
 
-            for (int x = 0; weight_1.length > x; x++) {
 
-                if (weight_1[x] % 2 != 0)
+        for (int x = 0; weight_1.length > x; x++) {
 
-                    weight_1[x]++;
+            if (weight_1[x] % 2 != 0)
 
-                System.out.print(weight_1[x] + " ");
-            }
+                weight_1[x]++;
+
+            System.out.print(weight_1[x] + " ");
         }
+
     }
 }
 
